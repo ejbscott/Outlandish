@@ -1,0 +1,239 @@
+body {
+  font-family: "poppins";
+  margin: 0;
+  background-color: #4f8a9d;
+  color: white;
+}
+
+.topnav {
+  background-color: #4f8a9d;
+  text-align: right;
+  padding: 12px;
+  margin-right: 10px;
+  word-spacing: 15px;
+}
+
+.button, .listen_now_button {
+  background-color: #2c515d;
+  border-radius: 25px;
+  border-color: transparent;
+  border-style: solid;
+  height: 50px;
+  width: 120px;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px #345763;
+}
+
+.listen_now_button{
+  margin-left: 33%;
+  margin-right: 33%;
+}
+@media only screen and (min-width: 768px){.listen_now_button{
+  margin:0px;
+}}
+
+.button:hover, .listen_now_button:hover{
+  background-color: #335f6e;
+  border-color: #203e48;
+}
+
+a {
+  font-size: large;
+  color: white;
+  font-family: "bangers";
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 5px 5px 5px 5px;
+}
+
+.active_button {
+  background-color: #203942;
+  border-radius: 25px;
+  border-color: transparent;
+  border-style: solid;
+  height: 50px;
+  width: 100px;
+  box-shadow: 2px 2px 5px #345763;
+}
+
+.active_button:hover {
+  background-color: #335f6e;
+  border-color: #203e48;
+}
+
+.topnavlogo {
+  position: fixed;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 120px;
+}
+
+.topnavlogo:hover {
+  position: fixed;
+  left: 0;
+  margin-left: 18px;
+  margin-top: 12px;
+  width: 140px;
+  transform: rotate(5deg)
+}
+
+.main_header {
+  text-align: center;
+  background-image: url(/images/outlandish_square_bg.png);
+  object-fit: contain;
+  background-repeat: no-repeat;
+  max-height:175px;
+  background-size: 100%;
+  padding: 150px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  font-size: x-large;
+  font-family: "bangers";
+  font-size: x-large;
+  letter-spacing: 2px; 
+  background-position: center;
+}
+@media only screen and (min-width: 768px) {.main_header {
+  text-align: center;
+  background-image: url(/images/outlandish_bg.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  font-size: x-large;
+  background-position: center;
+  font-family: "bangers";
+  font-size: xx-large;
+  letter-spacing: 2px;
+}}
+
+.ep-chris-bradley-header {
+  text-align: center;
+  background-image: url(/images/chris_banner\ mobile.jpeg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  max-height:175px;
+  background-size: 100%;
+  padding: 150px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  font-size: x-large;
+  font-family: "bangers";
+  font-size: x-large;
+  letter-spacing: 2px; 
+  background-size: cover;
+}
+@media only screen and (min-width: 768px) {.ep-chris-bradley-header {
+  text-align: center;
+  background-image: url(/images/chris_banner.jpeg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  font-size: x-large;
+  background-position-y:60%;
+  background-position-x:50%;
+  font-family: "bangers";
+  font-size: xx-large;
+  letter-spacing: 2px;
+  background-size: auto;
+}}
+
+.title{text-align: center;
+  font-family: 'Bangers';
+}
+
+.mainlogo {
+  max-width: 400px;
+  min-width: 200px;
+  position: sticky;
+}
+
+.container {
+  margin: auto;
+  padding-top: 5%;
+  width: 70%;
+  box-sizing: border-box;
+  min-height: 350px;
+}@media only screen and (min-width: 768px) {.container {
+margin:auto;
+padding-top: 5%;
+width: 45%;
+box-sizing: border-box;
+min-height: 350px
+}}
+
+.box{
+  background-color: #63acc4; 
+  border-radius: 10px;
+  margin-top:15px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom:15px;
+  padding:2%;
+  width: 75%;
+  max-width: 800px;
+  font-size: small;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px #345763;
+}
+
+.box_text_container{
+  width: auto;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 5%;
+}@media only screen and (min-width: 768px){.box_text_container{
+  width: 60%;
+  margin-bottom: 5%;
+}}
+
+.box_text{text-align: center;}
+  @media only screen and (min-width: 768px){.box_text{text-align:left}}
+
+
+.headshot_container{
+  margin-right: 33%;
+  margin-left:33%;
+  width:120px;
+} @media only screen and (min-width: 768px) {.headshot_container{
+  float:right;
+  width:200px;
+  transform: translate(0%, 40%);
+  margin-right: 10px;
+  margin-left:25px
+}}
+
+.headshot{
+  width:120px;
+  border-radius: 120px;
+  box-shadow: 2px 2px 5px #345763;
+} @media only screen and (min-width: 768px) {.headshot{
+  width:200px;
+  border-radius: 200px;
+  box-shadow: 2px 2px 5px #345763;
+}}
+
+footer {
+  background-color: #4f8a9d;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 85px;
+  padding-left: 15%;
+  padding-right:15%;
+  text-align: center;
+}
+
+.social_icon {
+  width: 35px;
+  padding: 25px;
+}
+
+.copyright {
+  color: white;
+  font-size: small;
+  text-align: center;
+}
