@@ -4,38 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Outlandish</title>
+  <title>Outlandish | Chris Bradley</title>
+  <link rel="icon" href="https://res.cloudinary.com/outlandish/image/upload/c_thumb,w_200,g_face/v1651579147/Branding/outlandish_circle.png" type="image">
   <link rel="stylesheet" href="/style.css?ref=v1"/> 
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
 <body>
-    <div class="topnav">
-        <a href="index.html"
-          ><img
-            class="topnavlogo"
-            src="/images/outlandish text (1).png"
-            alt="outlandish logo"
-          />
-        </a>
-        <button class="button">
-          <a href="index.html">Home</a>
-        </button>
-        <button class="button"><a href="podcast.html">Episodes</a></button>
-      </div>
+  <div id="nav-placeholder">
+  </div>
+  <script>
+  $(function(){
+    $("#nav-placeholder").load("/symbols/nav.html");
+  });
+  </script>
+</div>
 
       <div class="ep-chris-bradley-header">
-          <h3 class="title">Chris Bradley<br>Runaway Adventures</h3>
+        <h3>Chris Bradley<br>Runaway Adventures</h3>
       </div>
 
+
       <div class="box">
-        <div class="headshot_container">
-          <img class="headshot"
-          src="/images/chris bradley headshot.jpeg"
-          alt="Chris Bradley Runaway Adventures"/>
-          </div>
+        <div class="centre_align">
           <div class="box_text_container">
         <h2 class="box_text">#1</h2>
         <h1 class="box_text">Chris Bradley<br>
@@ -46,5 +40,34 @@
           about the story of Runaway and what goes into organising a great event.       
         </p>
       </div>
+      <div class="headshot_container">
+        <img class="headshot"
+        src="https://res.cloudinary.com/outlandish/image/upload/v1651579966/Episodes/Chris%20Bradley/chris_bradley_headshot.jpg"
+        alt="Chris Bradley Runaway Adventures"/>
+        </div>
+      </div>
+      <div class="rss">
+        <iframe src="https://player.rss.com/outlandish/485520?theme=light" 
+        style="width: 100%"
+        title="Outlandish" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        <a href="https://rss.com/podcasts/outlandish/485520/">Chris Bradley, Runaway Adventures - Building a trail running company from scratch</a>
+      </iframe>
+    </div>
+      </div>
+  
+    
+
+      <div id="footer-placeholder">
+      </div>
+      <script>
+      $(function(){
+        $("#footer-placeholder").load("/symbols/footer.html");
+      });
+      </script>
+    
+    
 </body>
 </html>

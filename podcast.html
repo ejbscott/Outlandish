@@ -4,12 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Outlandish</title>
-    <link
-      rel="shortcut icon"
-      href="/images/outlandish o.png"
-      type="image/x-icon"
-    />
+    <title>Outlandish | Episodes</title>
+    <link rel="icon" href="https://res.cloudinary.com/outlandish/image/upload/c_thumb,w_200,g_face/v1651579147/Branding/outlandish_circle.png" type="image">
     <link rel="stylesheet" href="/style.css?ref=v1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,54 +13,59 @@
       href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
   </head>
 
   <body>
-    <div class="topnav">
-      <a href="index.html"
-        ><img class="topnavlogo"
-          src="/images/outlandish text (1).png"
-          alt="outlandish logo"
-        />
-      </a>
-      <button class="button">
-        <a href="index.html">Home</a>
-      </button>
-      <button class="active_button"><a href="podcast.html">Episodes</a></button>
+    <div id="nav-placeholder">
     </div>
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("/symbols/nav.html");
+    });
+    </script>
+  </div>
 
     <div class="main_header">
-      <h3>All episodes</h3>
+      <h1>All episodes</h1>
     </div>
-
+    <div class="episodes list">
     <div class="box">
-      <div class="headshot_container">
-        <img class="headshot"
-        src="/images/chris bradley headshot.jpeg"
-        alt="Chris Bradley Runaway Adventures"/>
-        </div>
+      <div class="centre_align">
+        
         <div class="box_text_container">
       <h2 class="box_text">#1</h2>
       <h1 class="box_text">Chris Bradley<br>
         Runaway Adventures</h1>
       <p class="box_text">Chris Bradley is the founder and director of Runaway Adventures, a
         London-based trail running company hosting races and meetups in and
-        around the city. Ed headed to Runaway HQ in Tottenham to chat to Chris
+        around the city. <br><br>Ed headed to Runaway HQ in Tottenham to chat to Chris
         about the story of Runaway and what goes into organising a great event.       
       </p>
     </div>
-      <button class="listen_now_button">
-        <a href="ep-chris-bradley.html">Listen now</a>
-      </button>
+    <div class="headshot_container">
+      <img class="headshot"
+      src="https://res.cloudinary.com/outlandish/image/upload/v1651579966/Episodes/Chris%20Bradley/chris_bradley_headshot.jpg"
+      alt="Chris Bradley Runaway Adventures"/>
+      </div>
     </div>
+    <div class="horizontal_center">
+    <button class="listen_now_button">
+      <a href="/ep-chris-bradley.html">Listen now</a>
+    </button>
+  </div>
+  </div>
+  </div>
 
-    <footer>
-        <div class="socials">
-         <a href="https://www.instagram.com/outlandish.run/" target="_blank">
-           <img class="social_icon" src="/images/outlandish_ig.png" alt="instagram icon"></a>
-          <img class="social_icon" src="/images/outlandish_spotify.png" alt="spotify icon">
-        <p class="copyright">Copyright Ed Scott 2022</p>
-        </footer>
+    <div id="footer-placeholder">
+    </div>
+    <script>
+    $(function(){
+      $("#footer-placeholder").load("/symbols/footer.html");
+    });
+    </script>
+  
     
   </body>
 </html>
