@@ -4,7 +4,7 @@
       alt="outlandish logo" />
   </a>
   <button class="topnav_button">
-    <a href="./index">Home</a>
+    <a href="outlandish.run">Home</a>
   </button>
   <button class="topnav_button"><a href="./episodes">Episodes</a></button>
 
@@ -12,7 +12,7 @@
     <button class="dropbtn">Menu</button>
     <div class="dropdown-content">
       <a href="../index">Home</a>
-      <a href="../episodes">Episodes</a>
+      <a href="outlandish.run/episodes">Episodes</a>
     </div>
   </div>
 
