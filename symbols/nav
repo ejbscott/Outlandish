@@ -12,7 +12,7 @@
     <button class="dropbtn">Menu</button>
     <div class="dropdown-content">
       <a href="./index.html">Home</a>
-      <a href="./podcast">Episodes</a>
+      <a href="./episodes.html">Episodes</a>
     </div>
   </div>
 
