@@ -1,5 +1,5 @@
 <div class="topnav">
-  <a href="./index.html"><img class="topnavlogo"
+  <a href="../index.html"><img class="topnavlogo"
       src="https://res.cloudinary.com/outlandish/image/upload//c_scale,q_auto,w_1200/v1651578639/Branding/outlandish_logo.png"
       alt="outlandish logo" />
   </a>
@@ -11,8 +11,8 @@
   <div class="dropdown">
     <button class="dropbtn">Menu</button>
     <div class="dropdown-content">
-      <a href="./index.html">Home</a>
-      <a href="./episodes.html">Episodes</a>
+      <a href="../index">Home</a>
+      <a href="../episodes">Episodes</a>
     </div>
   </div>
 
