@@ -1,18 +1,18 @@
 <div class="topnav">
-  <a href="https://outlandish.run/"><img class="topnavlogo"
+  <a href="https://outlandish.run"><img class="topnavlogo"
       src="https://res.cloudinary.com/outlandish/image/upload/v1654524510/Branding/New%20branding/outlandish_logo_pzyvce.png"
       alt="outlandish logo" />
   </a>
   <button class="topnav_button">
-    <a href="https://outlandish.run/">Home</a>
+    <a href="https://outlandish.run">Home</a>
   </button>
-  <button class="topnav_button"><a href="https://outlandish.run/episodes/">Episodes</a></button>
+  <button class="topnav_button"><a href="https://outlandish.run/episodes">Episodes</a></button>
 
   <div class="dropdown">
     <button class="dropbtn">Menu</button>
     <div class="dropdown-content">
       <a href="../index">Home</a>
-      <a href="https://outlandish.run/episodes/">Episodes</a>
+      <a href="https://outlandish.run/episodes">Episodes</a>
     </div>
   </div>
 
