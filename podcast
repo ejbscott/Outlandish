@@ -21,7 +21,7 @@
   </div>
   <script>
     $(function () {
-      $("#nav-placeholder").load("./symbols/nav.html");
+      $("#nav-placeholder").load("./symbols/nav");
     });
   </script>
   </div>
@@ -51,7 +51,7 @@
       </div>
       <div class="horizontal_center">
         <button class="listen_now_button">
-          <a href="./ep-chris-bradley.html">Listen now</a>
+          <a href="./ep-chris-bradley">Listen now</a>
         </button>
       </div>
     </div>
@@ -61,7 +61,7 @@
   </div>
   <script>
     $(function () {
-      $("#footer-placeholder").load("./symbols/footer.html");
+      $("#footer-placeholder").load("./symbols/footer");
     });
   </script>
 </body>
