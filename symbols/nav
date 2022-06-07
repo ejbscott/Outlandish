@@ -4,11 +4,11 @@
       alt="outlandish logo" />
   </a>
     <button class="topnav_button">
-       <a href="https://outlandish.run">Home</a>
+       <a class="button_text" href="https://outlandish.run">Home</a>
     </button>
     
     <button class="topnav_button">
-       <a href="https://outlandish.run/episodes">Episodes</a>
+       <a class="button_text" href="https://outlandish.run/episodes">Episodes</a>
     </button>
 
   <div class="dropdown">
