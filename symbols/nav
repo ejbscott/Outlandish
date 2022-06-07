@@ -6,8 +6,7 @@
     <button class="topnav_button">
        <a href="https://outlandish.run">Home</a>
     </button>
-    <div class="dot">
-    </div>
+    
     <button class="topnav_button">
        <a href="https://outlandish.run/episodes">Episodes</a>
     </button>
