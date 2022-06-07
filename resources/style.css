@@ -6,7 +6,7 @@ body {
 }
 
 .topnav {
-  background-color: #4f8a9d;
+  background-color: #FFF5D1;
   position:relative;
   text-align: right;
   padding: 12px;
@@ -16,9 +16,8 @@ body {
 
 .topnavlogo {
   position: absolute;
-  left: 0;
-  margin-left: 20px;
-  margin-top: 15px;
+  margin: auto;
+  padding-top: 15px;
   width: 120px;
 }
 
