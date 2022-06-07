@@ -88,14 +88,21 @@ body {
   display:none
 }}
 .topnav_button{
-  background-color: #2c515d;
-  border-radius: 25px;
-  border-color: transparent;
-  border-style: solid;
+  background-color: transparent;
+  border-color:transparent;
   height: 50px;
   width: 120px;
   min-width: 100px;
-  box-shadow: 2px 2px 5px #345763;
+}
+
+.button_text{
+  color:#FFC700;
+  font-size:xx-large;
+}
+
+.button_text:hover{
+  color:#A49302;
+  font-size:xx-large;
 }
 
 .horizontal_center{
@@ -118,7 +125,7 @@ text-align:center;
   
 }}
 
-.topnav_button:hover, .listen_now_button:hover, .menu_dropdown:hover, active_button:hover{
+.listen_now_button:hover, .menu_dropdown:hover, {
   background-color: #335f6e;
   border-color: #203e48;
 }
