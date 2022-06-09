@@ -197,7 +197,7 @@ a {
 .rss{
   margin-left:5%;
   margin-right:5%;
-  background-color:#63acc4
+  background-color:#05B6AB
 }
 
 .title{text-align: center;
@@ -217,7 +217,9 @@ a {
   width: 70%;
   box-sizing: border-box;
   min-height: 350px;
-}@media only screen and (min-width: 768px) {.container {
+}
+
+@media only screen and (min-width: 768px) {.container {
 margin:auto;
 padding-top: 5%;
 width: 45%;
@@ -226,7 +228,7 @@ min-height: 350px
 }}
 
 .box{
-  background-color: #63acc4; 
+  background-color: #05B6AB; 
   border-radius: 10px;
   margin-top:25px;
   margin-left:auto;
