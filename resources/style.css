@@ -165,7 +165,7 @@ a {
 
 .ep-chris-bradley-header {
   text-align: center;
-  background-image: url(https://res.cloudinary.com/outlandish/image/upload/ar_1:1,c_fill,g_auto,w_1000/v1651579982/Episodes/Chris%20Bradley/chris_banner.jpg);
+  background-image: url(https://res.cloudinary.com/outlandish/image/upload/v1654618092/Episodes/Chris%20Bradley/outlandish_bg_chris_bradley.png);
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -181,7 +181,7 @@ a {
 @media only screen and (min-width: 768px) {.ep-chris-bradley-header {
   text-align:auto;
   height: auto;
-  background-image: url(https://res.cloudinary.com/outlandish/image/upload/f_auto,q_auto:best/c_fill,h_1000,w_1500/v1651579982/Episodes/Chris%20Bradley/chris_banner.jpg);
+  background-image: url(https://res.cloudinary.com/outlandish/image/upload/v1654618092/Episodes/Chris%20Bradley/outlandish_bg_chris_bradley.png);
   object-fit: cover;
   background-repeat: no-repeat;
   padding:150px;
