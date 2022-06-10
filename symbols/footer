@@ -28,6 +28,11 @@
         src="https://res.cloudinary.com/outlandish/image/upload/v1654847457/Branding/New%20branding/outlandish_youtube_akxukz.png"
         alt="youtube_icon"></a>
         
+      <a href="mailto:hello@outlandish.run">
+        <img class="social_icon"
+        src="https://res.cloudinary.com/outlandish/image/upload/v1654878560/Branding/New%20branding/outlandish_email_hrxcly.png"
+        alt="email)icon"></a>
+        
       <p class="copyright">Copyright Ed Scott 2022</p>
     </div>
   </div>
