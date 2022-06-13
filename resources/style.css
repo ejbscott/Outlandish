@@ -196,6 +196,107 @@ a {
   background-position: center;
 }}
 
+
+.ep-ally-whitlock-header {
+  text-align: center;
+  background-image: url(https://res.cloudinary.com/outlandish/image/upload/v1655127955/Episodes/Ally%20Whitlock/ally_whitlock_thames_path_100_im0hua.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 65px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  font-size: x-large;
+  font-family: "bangers";
+  font-size: x-large;
+  letter-spacing: 2px; 
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (min-width: 768px) {.ep-ally-whitlock-header {
+  text-align:auto;
+  height: auto;
+  background-image: url(https://res.cloudinary.com/outlandish/image/upload/v1655127955/Episodes/Ally%20Whitlock/ally_whitlock_thames_path_100_im0hua.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding:150px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  font-size: x-large;
+  font-family: "bangers";
+  font-size: xx-large;
+  letter-spacing: 2px;
+  background-size: cover;
+  background-position: center;
+}}
+
+.ep-darryl-hanstein-header {
+  text-align: center;
+  background-image: url(https://res.cloudinary.com/outlandish/image/upload/v1655128423/Episodes/Darryl%20Hanstein/ugoku_projects_caps_fpewnq.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 65px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  font-size: x-large;
+  font-family: "bangers";
+  font-size: x-large;
+  letter-spacing: 2px; 
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (min-width: 768px) {.ep-darryl-hanstein-header {
+  text-align:auto;
+  height: auto;
+  background-image: url(https://res.cloudinary.com/outlandish/image/upload/v1655128423/Episodes/Darryl%20Hanstein/ugoku_projects_caps_fpewnq.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding:150px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  font-size: x-large;
+  font-family: "bangers";
+  font-size: xx-large;
+  letter-spacing: 2px;
+  background-size: cover;
+  background-position: center;
+}}
+
+.ep-david-bone-header {
+  text-align: center;
+  background-image: url(https://res.cloudinary.com/outlandish/image/upload/v1655128894/Episodes/David%20Bone/camino_ultra_q7nht4.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 65px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  font-size: x-large;
+  font-family: "bangers";
+  font-size: x-large;
+  letter-spacing: 2px; 
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (min-width: 768px) {.ep-david-bone-header {
+  text-align:auto;
+  height: auto;
+  background-image: url(https://res.cloudinary.com/outlandish/image/upload/v1655128894/Episodes/David%20Bone/camino_ultra_q7nht4.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding:150px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  font-size: x-large;
+  font-family: "bangers";
+  font-size: xx-large;
+  letter-spacing: 2px;
+  background-size: cover;
+  background-position: center;
+}}
+
+
 .rss{
   margin-left:5%;
   margin-right:5%;
